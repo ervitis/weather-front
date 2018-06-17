@@ -2,3 +2,4 @@
 .vcode
 node_modules
 local.js
+local.json

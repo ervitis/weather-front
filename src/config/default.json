@@ -1,0 +1,4 @@
+{
+  "apiHost": "http://weather-rest",
+  "port": 5100
+}

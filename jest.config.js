@@ -3,14 +3,13 @@ module.exports = {
     '<rootDir>/**/*.spec.js'
   ],
   collectCoverageFrom: [
-    'src/**/*.js',
-    '!src/container/**',
-    '!src/start.js',
-    '!src/input_interfaces/http/__tests__/mock_operation.js'
+    'src/**/*.js'
   ],
   coverageReporters: [
     'lcov', 'text', 'text-summary'
   ],
   testEnvironment: 'node',
-  verbose: true
+  verbose: true,
+  moduleDirectories: ["node_modules"],
+  moduleFileExtensions: ["js", "jsx"]
 }
